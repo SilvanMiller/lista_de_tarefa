@@ -11,7 +11,7 @@ function generateLiTask(obj) {
 
     checkButton.className = "button-check"
     checkButton.innerHTML = `
-            <i class="fas fa-check ${obj.completed ? "" : "displayNone"}" data-action="checkButton"></i>`
+        <i class="fas fa-check ${obj.completed ? "" : "displayNone"}" data-action="checkButton"></i>`
     checkButton.setAttribute("data-action", "checkButton")
 
     li.appendChild(checkButton)
